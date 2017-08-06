@@ -1,0 +1,501 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+    font-family: wf_segoe-ui_normal,Segoe UI,Segoe WP,Tahoma,Arial,sans-serif;
+    font-size: 16px;
+ }
+
+a {
+	text-decoration: none;
+	color: #fff;
+}
+
+h1, h2 {
+    -webkit-perspective: 800px;
+    perspective: 800px;
+}
+
+h1 {
+    font-family: wf_segoe-ui_light,Segoe UI Light,Segoe WP Light,Segoe UI,Segoe WP,Tahoma,Arial,sans-serif;
+    font-size: 66px;
+    color: #fff;
+    margin-bottom: 26px;
+    font-weight: 400;
+}
+
+h2 {
+    font-family: wf_segoe-ui_semilight,Segoe UI Semilight,Segoe WP Semilight,Segoe UI,Segoe WP,Tahoma,Arial,sans-serif;
+    font-size: 30px;
+    color: hsla(0,0%,100%,.8);
+    letter-spacing: 0;
+    line-height: 46px;
+    margin-bottom: 54px;
+    font-weight: 400;
+}
+
+.welcome {
+	min-height: 100vh;
+	background: #e74c3c;
+	display:flex;
+	flex-direction: column;
+}
+
+.nav {
+	padding: 32px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.sign-up:hover {
+	color: rgba(255,255,255, 0.5);
+}
+
+.nav-list {
+	line-height: 39px;
+    height: 39px;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.hero-one, .hero-two, .hero-three, .hero-four, .hero-five, .hero-six, .hero-seven {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.buttons {
+	display: flex;
+}
+
+.hero-one {
+    padding: 88px 0 210px;
+    z-index: 2;
+}
+
+#hero-two-slant {
+    position: absolute;
+    width: 100%;
+    height: 70px;
+    top: -69px;
+    bottom: 0;
+    left: 0;
+}
+
+
+.hero-two {
+	position: relative;
+	background-color: #222;
+    padding-top: 88px;
+    margin-top: -1px;
+}
+
+.hero-two img {
+	width: 64%;
+    max-width: 800px;
+}
+
+.hero-three {
+	background-image: url('../image/hero-three-back.png');
+	background-size: 120%;
+	background-color: snow;
+    margin-top: -300px;
+    position: relative;
+    padding-top: 88px;
+}
+
+#hero-three-slant {
+	position: absolute;
+    width: 100%;
+    height: 70px;
+    top: -69px;
+    bottom: 0;
+    left: 0;
+}
+
+.hero-three h1, .hero-four h1, .hero-six h1{
+	color: #e74c3c;
+}
+
+.hero-three h2, .hero-four h2, .hero-six h2 {
+	color: #8e8e93;
+}
+
+.hero-three img {
+	width: 54%;
+    max-width: 690px;
+}
+
+.hero-four {
+	background-image: url('../image/hero-four-back.png');
+    background-size: 30%;
+    background-repeat: no-repeat;
+    background-position: 75% 25%;
+    background-color: #fff;
+    margin-top: -200px;
+    position: relative;
+    padding-top: 88px;
+}
+
+#hero-four-slant {
+	position: absolute;
+    width: 100%;
+    height: 70px;
+    top: -70px;
+    bottom: 0;
+    left: 0;
+}
+
+.hero-four img {
+	width: 78%;
+    max-width: 1004px;
+    position: relative;
+    z-index: 80;
+}
+
+.hero-five {
+	background: #e74c3c;
+    margin-top: -80px;
+    position: relative;
+    padding-top: 150px;
+}
+
+#hero-five-slant {
+	position: absolute;
+    width: 100%;
+    height: 70px;
+    top: -70px;
+    bottom: 0;
+    left: 0;
+}
+
+.hero-five img {
+	width: 100%;
+}
+
+.app-store {
+	display: flex;
+	padding-bottom: 70px;
+}
+
+.app-store > a:not(.not) {
+	margin-left: 50px;
+}
+
+.app-store img {
+	width: 167px;
+    cursor: pointer;
+}
+
+.hero-six {
+    background-color: #fff;
+    margin-top: -300px;
+    position: relative;
+    padding-top: 88px;
+    padding-bottom: 100px;
+}
+
+#hero-six-slant {
+	position: absolute;
+    width: 100%;
+    height: 70px;
+    top: -69px;
+    bottom: 0;
+    left: 0;
+}
+
+.partners {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.partner-app {
+	width: 138px;
+}
+
+.partner-icon {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 130px;
+}
+
+.partner-text, .device-text {
+	font-size: 14px;
+    color: #8e8e93;
+    letter-spacing: 1.39px;
+    text-transform: uppercase;
+}
+
+.partners img {
+	width: 60px;
+	height: 60px;
+}
+
+.hero-seven {
+	background-color: #222;
+	position: relative;
+    padding-top: 88px;
+    margin-top: -5px;
+}
+
+.hero-seven img {
+	width: 100%;
+	max-width: 1000px
+}
+
+#hero-seven-slant {
+	position: absolute;
+    width: 100%;
+    height: 70px;
+    top: -69px;
+    bottom: 0;
+    left: 0;
+}
+
+.buttonGet, .buttonSign, .buttonGet-one, .buttonSign-one  {
+    font-family: wf_segoe-ui_semibold,Segoe UI Semibold,Segoe WP Semibold,Segoe UI,Segoe WP,Tahoma,Arial,sans-serif;
+    font-size: 22px;
+    letter-spacing: 0;
+    min-width: 200px;
+    display: inline-block;
+    padding: 14px 10px 16px;
+    text-align: center;
+    -webkit-transition: box-shadow .3s;
+    transition: box-shadow .3s;
+    cursor: pointer;
+}
+
+.buttonGet {
+    background: #fff;
+    color: #e74c3c;
+}
+
+.buttonGet:hover {
+	color: #fff;
+	background: rgba(0,0,0,0.4);
+}
+
+.buttonSign {
+    background: hsla(0,0%,100%,.22);
+    color: #fff;
+    margin-left: 40px;
+}
+
+.buttonSign:hover {
+	background: rgba(0,0,0,0.4);
+}
+
+.buttonGet-one {
+    background: #e74c3c;
+    color: #fff;
+}
+
+.buttonGet-one:hover {
+	background: rgba(0,0,0,0.4);
+} 
+
+.buttonSign-one {
+    background: #e9f3fb;
+    color: #e74c3c;
+    margin-left: 40px;
+}
+
+.buttonSign-one:hover {
+	background: #e74c3c;
+	color: #fff;
+}
+
+.message-button {
+	display: flex;
+	margin-top: 60px;
+    margin-bottom: 100px;
+}
+
+.devices {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 90px;
+}
+
+.device-app {
+	padding-right: 42px;
+}
+
+.device-icon {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 300px;
+}
+
+.device-icon img {
+	width: 100%;
+}
+
+.footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: snow;
+    text-align: center;
+    position: relative;
+    padding: 50px 25px 70px;
+}
+
+.copy-right, .conditions {
+	font-family: wf_segoe-ui_semibold,Segoe UI Semibold,Segoe WP Semibold,Segoe UI,Segoe WP,Tahoma,Arial,sans-serif;
+    color: #8e8e93;
+    font-size: 100%;
+}
+
+.company-icon {
+	vertical-align: middle;
+	 color: #8e8e93;
+}
+
+.conditions {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    line-height: 21px;
+    height: 21px;
+    cursor: pointer;
+    font: inherit;
+}
+
+.conditions > span:not(.first) {
+	padding-left: 40px;
+}
+
+@media (max-width: 768px) {
+	.hero-one {
+	    padding: 88px 0 150px;
+	    z-index: 2;
+	}
+
+	.buttons {
+		flex-direction: column;
+	}
+
+	.buttonSign {
+	    background: hsla(0,0%,100%,.22);
+	    color: #fff;
+	    margin-top: 10px;
+	    margin-left: 0px;
+	}
+
+	.sign-up {
+		display: none;
+	}
+
+	.nav {
+		justify-content: center;
+		align-items: center;
+	}
+
+	.hero-one {
+	    padding: 40px 0px 150px;
+	    z-index: 2;
+	}
+
+	.hero-three {
+	    margin-top: -50px;
+	    padding-top: 50px;
+	}
+
+	.hero-three img {
+		width: 100%;
+	    max-width: 1000px;
+	}
+
+	.hero-four {
+	    margin-top: -50px;
+	    padding-top: 60px;
+	}
+	.hero-five {
+	    margin-top: -50px;
+	    padding-top: 100px;
+	}
+
+	.hero-two {
+	    padding-top: 50px;
+	    margin-top: -1px;
+	}
+
+	.app-store {
+		display: flex;
+		flex-direction: column;
+		padding-bottom: 70px;
+	}
+
+	.app-store > a:not(.not) {
+		margin-left: 0px;
+		margin-top: 10px;
+	}
+
+	.hero-six {
+	    margin-top: -50px;
+	    padding-top: 50px;
+	    padding-bottom: 100px;
+	}
+
+	.message-button {
+		flex-direction: column;
+	}
+
+	.buttonSign-one {
+	    margin-left: 0px;
+	    margin-top: 10px;
+	}
+
+	.partners {
+		justify-content: center;
+	}
+
+	.devices {
+		display: flex;
+		justify-content: center;
+		margin-bottom: 50px;
+	}
+
+	.device-app {
+		padding-right: 10px;
+	}
+
+	.device-icon {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		height: 200px;
+	}
+
+	.device-icon img {
+		width: 100%;
+	}
+
+	.footer {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
+	    padding: 20px 25px 50px;
+	}
+
+	.footer > * {
+		margin-top: 20px;
+	}
+
+	.company-icon {
+		order: -1;
+	}
+}
