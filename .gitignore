@@ -1,3 +1,14 @@
-_site/
-.sass-cache/
-.jekyll-metadata
+node_modules/
+.DS_Store
+*.log
+*.error
+.env
+/.idea
+/.vagrant
+/.vscode
+npm-debug.log
+yarn-error.log
+coverage
+.nyc_output/
+/dist
+Todo.md
