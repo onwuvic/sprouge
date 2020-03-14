@@ -1,0 +1,35 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Arial, sans-serif;
+    font-weight: 400;
+}
+
+.heading-primary {
+    font-size: 6.6rem;
+    margin-bottom: 2.6rem;
+    // perspective: 800px;
+    font-weight: 400;
+
+
+    &__white {
+        color: $color-white;
+    }
+
+    &__theme {
+        color: $color-primary;
+    }
+}
+
+.heading-secondary {
+    font-size: 3rem;
+    line-height: 4.6rem;
+    margin-bottom: 5.4rem;
+    font-weight: 400;
+
+    &__light-grey {
+        color: $color-light-grey;
+    }
+
+    &__dark-grey {
+        color: $color-dark-grey;
+    }
+}

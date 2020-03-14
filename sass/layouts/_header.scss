@@ -1,0 +1,42 @@
+.header {
+    min-height: 100vh;
+	background: $color-primary;
+	display: flex;
+	flex-direction: column;
+    
+    &__nav {
+        padding: 3.2rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: $color-white;
+    }
+
+    &__logo {
+        font-size: 7rem !important;
+    }
+
+    &__logo-text {
+        line-height: 3.9rem;
+        height: 3.9rem;
+        font-size: 3.2rem;
+    }
+
+    &__signup {
+        font-size: $default-font-size;
+        transition: all .3s;
+
+        &:hover {
+            color: $color-grey;
+        }
+    }
+
+    &__text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 8.8rem 0 21rem
+    }
+}
