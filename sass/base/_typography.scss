@@ -3,33 +3,33 @@ body {
     font-weight: 400;
 }
 
-.heading-primary {
+.heading-primary__white {
     font-size: 6.6rem;
     margin-bottom: 2.6rem;
     // perspective: 800px;
     font-weight: 400;
-
-
-    &__white {
-        color: $color-white;
-    }
-
-    &__theme {
-        color: $color-primary;
-    }
+    color: $color-white;
 }
 
-.heading-secondary {
+.heading-primary__theme {
+    font-size: 6.6rem;
+    margin-bottom: 2.6rem;
+    font-weight: 400;
+    color: $color-primary;
+}
+
+.heading-secondary__light-grey {
     font-size: 3rem;
     line-height: 4.6rem;
     margin-bottom: 5.4rem;
     font-weight: 400;
+    color: $color-light-grey;
+}
 
-    &__light-grey {
-        color: $color-light-grey;
-    }
-
-    &__dark-grey {
-        color: $color-dark-grey;
-    }
+.heading-secondary__dark-grey {
+    font-size: 3rem;
+    line-height: 4.6rem;
+    margin-bottom: 5.4rem;
+    font-weight: 400;
+    color: $color-dark-grey;
 }

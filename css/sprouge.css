@@ -234,46 +234,6 @@
     cursor: pointer;
 }
 
-.buttonGet {
-    background: #fff;
-    color: #e74c3c;
-}
-
-.buttonGet:hover {
-	color: #fff;
-	background: rgba(0,0,0,0.4);
-}
-
-.buttonSign {
-    background: hsla(0,0%,100%,.22);
-    color: #fff;
-    margin-left: 40px;
-}
-
-.buttonSign:hover {
-	background: rgba(0,0,0,0.4);
-}
-
-.buttonGet-one {
-    background: #e74c3c;
-    color: #fff;
-}
-
-.buttonGet-one:hover {
-	background: rgba(0,0,0,0.4);
-} 
-
-.buttonSign-one {
-    background: #e9f3fb;
-    color: #e74c3c;
-    margin-left: 40px;
-}
-
-.buttonSign-one:hover {
-	background: #e74c3c;
-	color: #fff;
-}
-
 .message-button {
 	display: -webkit-box;
 	display: -ms-flexbox;

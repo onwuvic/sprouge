@@ -1,9 +1,14 @@
 // COLOR
 $color-primary: #e74c3c;
 $color-white: #fff;
+
+$color-grey: rgba(255,255,255, 0.5);
 $color-dark-grey: #8e8e93;
 $color-light-grey: hsla(0,0%,100%,.8);
-$color-grey: rgba(255,255,255, 0.5);
+$color-light-grey-1: hsla(0,0%,100%,.22);
+$color-light-grey-2: #e9f3fb;
+
+$color-light-black: rgba(0,0,0,0.4);
 
 // GRID
 $grid-width: 114rem;
