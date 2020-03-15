@@ -25,13 +25,13 @@ sr.reveal('.hero--one-img', {
 	distance: '300px',
 	viewFactor: 0.4
 });
-sr.reveal('.hero-three-animate', {
+sr.reveal('.hero--two-animate', {
 	duration: 2000,
 	origin: 'left',
 	distance: '300px',
 	viewFactor: 0.4
 });
-sr.reveal('.hero-three img', {
+sr.reveal('.hero--two-img', {
 	duration: 2000,
 	origin: 'right',
 	distance: '300px',

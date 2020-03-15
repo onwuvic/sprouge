@@ -17,4 +17,18 @@
             max-width: 80rem;
         }
     }
+
+    &--two {
+        background-image: url('../image/hero-three-back.png');
+        background-size: 120%;
+        background-color: snow;
+        margin-top: -30rem;
+        position: relative;
+        padding-top: 8.8rem;
+
+        &-img {
+            width: 54%;
+            max-width: 69rem;
+        }
+    }
 }

@@ -16,68 +16,12 @@
     padding: 20px;
 }
 
-.buttons {
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-}
-
-.hero-one {
-    padding: 88px 0 210px;
-    z-index: 2;
-}
-
-#hero-two-slant {
-    position: absolute;
-    width: 100%;
-    height: 70px;
-    top: -69px;
-    bottom: 0;
-    left: 0;
-}
-
-
-.hero-two {
-	position: relative;
-	background-color: #222;
-    padding-top: 88px;
-    margin-top: -1px;
-}
-
-.hero-two img {
-	width: 64%;
-    max-width: 800px;
-}
-
-.hero-three {
-	background-image: url('../image/hero-three-back.png');
-	background-size: 120%;
-	background-color: snow;
-    margin-top: -300px;
-    position: relative;
-    padding-top: 88px;
-}
-
-#hero-three-slant {
-	position: absolute;
-    width: 100%;
-    height: 70px;
-    top: -69px;
-    bottom: 0;
-    left: 0;
-}
-
 .hero-three h1, .hero-four h1, .hero-six h1{
 	color: #e74c3c;
 }
 
 .hero-three h2, .hero-four h2, .hero-six h2 {
 	color: #8e8e93;
-}
-
-.hero-three img {
-	width: 54%;
-    max-width: 690px;
 }
 
 .hero-four {
