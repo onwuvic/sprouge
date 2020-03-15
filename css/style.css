@@ -191,3 +191,27 @@ body {
   .btn--greyish:hover {
     background: #e74c3c;
     color: #fff; }
+
+.slant {
+  position: absolute;
+  width: 100%;
+  height: 70px;
+  top: -70px;
+  bottom: 0;
+  left: 0; }
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2rem; }
+  .hero--one {
+    position: relative;
+    background-color: #222;
+    padding-top: 8.8rem;
+    margin-top: -1px; }
+    .hero--one-img {
+      width: 64%;
+      max-width: 80rem; }
