@@ -19,6 +19,16 @@
         margin-right: 4rem;
     }
 
+    &--container-fluid {
+        display: flex;
+        margin-top: 6rem;
+        margin-bottom: 10rem;
+    }
+
+    &--container {
+        display: flex;
+    }
+
     &--grey {
         background: $color-light-grey-1;
         color: $color-white;

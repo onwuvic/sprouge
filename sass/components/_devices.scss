@@ -1,0 +1,28 @@
+.devices {
+	display: flex;
+	justify-content: center;
+    margin-bottom: 9rem;
+    
+    &__app {
+        padding-right: 4.2rem;
+    }
+
+    &__icon {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 30rem;
+    }
+
+    &__img {
+        width: 100%;
+    }
+
+    &__text {
+        font-size: 1.4rem;
+        color: $color-dark-grey;
+        letter-spacing: 1.39px;
+        text-transform: uppercase;
+    }
+}

@@ -8,7 +8,7 @@ sr.reveal('.header__text', {
 	origin: 'top',
 	distance: '300px'
 });
-sr.reveal('.header__buttons', {
+sr.reveal('.btn--container', {
 	duration: 2000,
 	delay: 1000,
 	origin: 'bottom'
@@ -60,32 +60,38 @@ sr.reveal('.hero--four-img', {
 	distance: '300px',
 	viewFactor: 0.1
 });
-sr.reveal('.hero-six-animate', {
+sr.reveal('.hero--five-animate', {
 	duration: 2000,
 	origin: 'left',
 	distance: '300px',
 	viewFactor: 0.4
 });
-sr.reveal('.hero-six img', {
+sr.reveal('.partners', {
 	duration: 2000,
 	origin: 'right',
 	distance: '300px',
 	viewFactor: 0.2
 });
-sr.reveal('.hero-seven-animate', {
+sr.reveal('.hero--six-animate', {
 	duration: 2000,
 	origin: 'left',
 	distance: '300px',
 	viewFactor: 0.4
 });
-sr.reveal('.hero-seven img', {
+sr.reveal('.hero--six-img', {
 	duration: 2000,
 	origin: 'bottom',
 	distance: '300px',
 	viewFactor: 0.2
 });
-sr.reveal('.message-button', {
+sr.reveal('.btn--container-fluid', {
 	duration: 2000,
 	delay: 1000,
 	origin: 'bottom',
+});
+sr.reveal('.devices', {
+	duration: 2000,
+	origin: 'right',
+	distance: '300px',
+	viewFactor: 0.2
 });

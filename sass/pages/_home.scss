@@ -50,7 +50,7 @@
     }
 
     &--four {
-        background: #e74c3c;
+        background: $color-primary;
         margin-top: -8rem;
         position: relative;
         padding-top: 15rem;
@@ -61,7 +61,7 @@
     }
 
     &--five {
-        background-color: #fff;
+        background-color: $color-white;
         margin-top: -30rem;
         position: relative;
         padding-top: 8.8rem;
@@ -69,6 +69,18 @@
 
         &-img {
             width: 78%;
+        }
+    }
+
+    &--six {
+        background-color: $color-black;
+        position: relative;
+        padding-top: 8.8rem;
+        margin-top: -.5rem;
+
+        &-img {
+            width: 100%;
+	        max-width: 100rem
         }
     }
 }
