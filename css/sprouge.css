@@ -1,21 +1,3 @@
-.hero-one, .hero-two, .hero-three, .hero-four, .hero-five, .hero-six, .hero-seven {
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-orient: vertical;
-	-webkit-box-direction: normal;
-	    -ms-flex-direction: column;
-	        flex-direction: column;
-	-webkit-box-pack: center;
-	    -ms-flex-pack: center;
-	        justify-content: center;
-	-webkit-box-align: center;
-	    -ms-flex-align: center;
-	        align-items: center;
-    text-align: center;
-    padding: 20px;
-}
-
 .hero-three h1, .hero-four h1, .hero-six h1{
 	color: #e74c3c;
 }
@@ -24,121 +6,11 @@
 	color: #8e8e93;
 }
 
-.hero-four {
-	background-image: url('../image/hero-four-back.png');
-    background-size: 30%;
-    background-repeat: no-repeat;
-    background-position: 75% 25%;
-    background-color: #fff;
-    margin-top: -200px;
-    position: relative;
-    padding-top: 88px;
-}
-
-#hero-four-slant {
-	position: absolute;
-    width: 100%;
-    height: 70px;
-    top: -70px;
-    bottom: 0;
-    left: 0;
-}
-
-.hero-four img {
-	width: 78%;
-    max-width: 1004px;
-    position: relative;
-    z-index: 80;
-}
-
-.hero-five {
-	background: #e74c3c;
-    margin-top: -80px;
-    position: relative;
-    padding-top: 150px;
-}
-
-#hero-five-slant {
-	position: absolute;
-    width: 100%;
-    height: 70px;
-    top: -70px;
-    bottom: 0;
-    left: 0;
-}
-
-.hero-five img {
-	width: 100%;
-}
-
-.app-store {
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	padding-bottom: 70px;
-}
-
-.app-store > a:not(.not) {
-	margin-left: 50px;
-}
-
-.app-store img {
-	width: 167px;
-    cursor: pointer;
-}
-
-.hero-six {
-    background-color: #fff;
-    margin-top: -300px;
-    position: relative;
-    padding-top: 88px;
-    padding-bottom: 100px;
-}
-
-#hero-six-slant {
-	position: absolute;
-    width: 100%;
-    height: 70px;
-    top: -69px;
-    bottom: 0;
-    left: 0;
-}
-
-.partners {
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-ms-flex-wrap: wrap;
-	    flex-wrap: wrap;
-}
-
-.partner-app {
-	width: 138px;
-}
-
-.partner-icon {
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-pack: center;
-	    -ms-flex-pack: center;
-	        justify-content: center;
-	-webkit-box-align: center;
-	    -ms-flex-align: center;
-	        align-items: center;
-	height: 130px;
-}
-
-.partner-text, .device-text {
+.device-text {
 	font-size: 14px;
     color: #8e8e93;
     letter-spacing: 1.39px;
     text-transform: uppercase;
-}
-
-.partners img {
-	width: 60px;
-	height: 60px;
 }
 
 .hero-seven {

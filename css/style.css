@@ -200,6 +200,33 @@ body {
   bottom: 0;
   left: 0; }
 
+.app-store {
+  display: flex;
+  padding-bottom: 7rem; }
+  .app-store__link:not(:last-child) {
+    margin-right: 5rem; }
+  .app-store__img {
+    width: 16.7rem; }
+
+.partners {
+  display: flex;
+  flex-wrap: wrap; }
+  .partners__app {
+    width: 13.8rem; }
+  .partners__icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 13rem; }
+  .partners__img {
+    width: 6rem;
+    height: 6rem; }
+  .partners__text {
+    font-size: 1.4rem;
+    color: #8e8e93;
+    letter-spacing: 1.39px;
+    text-transform: uppercase; }
+
 .hero {
   display: flex;
   flex-direction: column;
@@ -225,3 +252,31 @@ body {
     .hero--two-img {
       width: 54%;
       max-width: 69rem; }
+  .hero--three {
+    background-image: url("../image/hero-four-back.png");
+    background-size: 30%;
+    background-repeat: no-repeat;
+    background-position: 75% 25%;
+    background-color: #fff;
+    margin-top: -20rem;
+    position: relative;
+    padding-top: 8.8rem; }
+    .hero--three-img {
+      width: 78%;
+      max-width: 100.4rem;
+      z-index: 80; }
+  .hero--four {
+    background: #e74c3c;
+    margin-top: -8rem;
+    position: relative;
+    padding-top: 15rem; }
+    .hero--four-img {
+      width: 78%; }
+  .hero--five {
+    background-color: #fff;
+    margin-top: -30rem;
+    position: relative;
+    padding-top: 8.8rem;
+    padding-bottom: 10rem; }
+    .hero--five-img {
+      width: 78%; }

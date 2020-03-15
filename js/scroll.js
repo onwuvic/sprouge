@@ -37,24 +37,24 @@ sr.reveal('.hero--two-img', {
 	distance: '300px',
 	viewFactor: 0.4
 });
-sr.reveal('.hero-four-animate', {
+sr.reveal('.hero--three-animate', {
 	duration: 2000,
 	origin: 'right',
 	distance: '300px',
 	viewFactor: 0.4
 });
-sr.reveal('.hero-four img', {
+sr.reveal('hero--three-img', {
 	duration: 2000,
 	origin: 'left',
 	distance: '300px',
 	viewFactor: 0.4
 });
-sr.reveal('.hero-five-animate', {
+sr.reveal('.hero--four-animate', {
 	duration: 2000,
 	origin: 'top',
 	viewFactor: 0.4
 });
-sr.reveal('.hero-five-image', {
+sr.reveal('.hero--four-img', {
 	duration: 2000,
 	origin: 'bottom',
 	distance: '300px',

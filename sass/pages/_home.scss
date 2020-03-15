@@ -31,4 +31,44 @@
             max-width: 69rem;
         }
     }
+
+    &--three {
+        background-image: url('../image/hero-four-back.png');
+        background-size: 30%;
+        background-repeat: no-repeat;
+        background-position: 75% 25%;
+        background-color: $color-white;
+        margin-top: -20rem;
+        position: relative;
+        padding-top: 8.8rem;
+
+        &-img {
+            width: 78%;
+            max-width: 100.4rem;
+            z-index: 80;
+        }
+    }
+
+    &--four {
+        background: #e74c3c;
+        margin-top: -8rem;
+        position: relative;
+        padding-top: 15rem;
+
+        &-img {
+            width: 78%;
+        }
+    }
+
+    &--five {
+        background-color: #fff;
+        margin-top: -30rem;
+        position: relative;
+        padding-top: 8.8rem;
+        padding-bottom: 10rem;
+
+        &-img {
+            width: 78%;
+        }
+    }
 }

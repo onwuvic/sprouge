@@ -1,0 +1,27 @@
+.partners {
+	display: flex;
+	flex-wrap: wrap;
+
+    &__app {
+        width: 13.8rem;
+    }
+
+    &__icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 13rem;
+    }
+
+    &__img {
+        width: 6rem;
+	    height: 6rem;
+    }
+
+    &__text {
+        font-size: 1.4rem;
+        color: $color-dark-grey;
+        letter-spacing: 1.39px;
+        text-transform: uppercase;
+    }
+}

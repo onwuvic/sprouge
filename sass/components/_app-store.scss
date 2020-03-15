@@ -1,0 +1,14 @@
+.app-store {
+	display: flex;
+    padding-bottom: 7rem;
+    
+    &__link {
+        &:not(:last-child) {
+            margin-right: 5rem;
+        }
+    }
+
+    &__img {
+        width: 16.7rem;
+    }
+}
