@@ -9,6 +9,10 @@ body {
     // perspective: 800px;
     font-weight: 400;
     color: $color-white;
+
+    @include responsive(phone) {
+        font-size: 4.6rem;
+    }
 }
 
 .heading-primary__theme {
@@ -16,6 +20,10 @@ body {
     margin-bottom: 2.6rem;
     font-weight: 400;
     color: $color-primary;
+
+    @include responsive(phone) {
+        font-size: 4.6rem;
+    }
 }
 
 .heading-secondary__light-grey {
@@ -24,6 +32,10 @@ body {
     margin-bottom: 5.4rem;
     font-weight: 400;
     color: $color-light-grey;
+
+    @include responsive(phone) {
+        font-size: 2.5rem;
+    }
 }
 
 .heading-secondary__dark-grey {
@@ -32,4 +44,8 @@ body {
     margin-bottom: 5.4rem;
     font-weight: 400;
     color: $color-dark-grey;
+
+    @include responsive(phone) {
+        font-size: 2.5rem;
+    }
 }

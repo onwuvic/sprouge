@@ -1,7 +1,7 @@
 .btn {
     &, &:link, &:visited {
         font-size: 2.2rem;
-        min-width: 200px;
+        min-width: 20rem;
         display: inline-block;
         padding: 1.4rem 1rem 1.6rem;
 
@@ -17,16 +17,29 @@
 
     &:not(:last-child) {
         margin-right: 4rem;
+
+        @include responsive(phone) {
+            margin-right: 0;
+            margin-bottom: 2rem;
+        }
     }
 
     &--container-fluid {
         display: flex;
         margin-top: 6rem;
         margin-bottom: 10rem;
+
+        @include responsive(phone) {
+            flex-direction: column;
+        }
     }
 
     &--container {
         display: flex;
+
+        @include responsive(phone) {
+            flex-direction: column;
+        }
     }
 
     &--grey {

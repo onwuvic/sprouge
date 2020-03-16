@@ -1,6 +1,10 @@
 .partners {
 	display: flex;
-	flex-wrap: wrap;
+    flex-wrap: wrap;
+    
+    @include responsive(phone) {
+        justify-content: center;
+    }
 
     &__app {
         width: 13.8rem;

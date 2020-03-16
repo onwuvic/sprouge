@@ -2,7 +2,11 @@
     min-height: 100vh;
 	background: $color-primary;
 	display: flex;
-	flex-direction: column;
+    flex-direction: column;
+
+    @include responsive(ipad-pro) {
+        min-height: 62vh;
+    }
     
     &__nav {
         padding: 3.2rem;
@@ -10,6 +14,10 @@
         justify-content: space-between;
         align-items: center;
         color: $color-white;
+
+        @include responsive(phone) {
+            justify-content: center;
+        }
     }
 
     &__logo {
@@ -29,6 +37,10 @@
         &:hover {
             color: $color-grey;
         }
+
+        @include responsive(phone) {
+            display: none;
+        }
     }
 
     &__text {
@@ -38,5 +50,9 @@
         align-items: center;
         text-align: center;
         padding: 8.8rem 0 21rem;
+
+        @include responsive(phone) {
+            padding: 4rem 0 15rem;
+        }
     }
 }

@@ -2,9 +2,17 @@
 	display: flex;
 	justify-content: center;
     margin-bottom: 9rem;
+
+    @include responsive(phone) {
+		margin-bottom: 5rem;
+    }
     
     &__app {
         padding-right: 4.2rem;
+
+        @include responsive(phone) {
+            padding-right: 1rem;
+        }
     }
 
     &__icon {
@@ -13,6 +21,10 @@
         justify-content: center;
         align-items: center;
         height: 30rem;
+
+        @include responsive(phone) {
+            height: 20rem;
+        }
     }
 
     &__img {
