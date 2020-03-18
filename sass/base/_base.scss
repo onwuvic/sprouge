@@ -19,7 +19,7 @@ html {
     }
 
     @include responsive(big-desktop) {
-        font-size: 75%; // 1 rem = 12px; 12px/16px = 75%
+        font-size: 65%; // 1 rem = 12px; 12px/16px = 75%
     }
 }
 

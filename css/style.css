@@ -33,7 +33,7 @@ html {
       font-size: 50%; } }
   @media (min-width: 112.5em) {
     html {
-      font-size: 75%; } }
+      font-size: 65%; } }
 
 body {
   box-sizing: border-box;
@@ -216,7 +216,7 @@ body {
   position: absolute;
   width: 100%;
   height: 70px;
-  top: -70px;
+  top: -69px;
   bottom: 0;
   left: 0; }
 
@@ -420,7 +420,7 @@ body {
         margin-top: -5rem;
         padding-top: 10rem; } }
     .hero--four-img {
-      width: 78%; }
+      width: 70%; }
       @media (max-width: 37.5em) {
         .hero--four-img {
           width: 100%; } }
