@@ -9,6 +9,6 @@
         "compile": "node-sass sass/main.scss css/style.css -w"
     },
     "devDependencies": {
-        "node-sass": "4.13.0"
+        "node-sass": "4.13.1"
     }
 }
